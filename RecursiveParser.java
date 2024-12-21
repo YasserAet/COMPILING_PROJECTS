@@ -9,6 +9,7 @@ public class RecursiveParser {
     static Set<String> groupesAdverbiaux = Set.of("chaque matin", "hier soir");
     static Set<String> groupesTemporels = Set.of("à 6 heures", "pendant la journée");
 
+    
     // Tokenisation
     public static List<String> tokeniser(String phrase) {
         return Arrays.asList(phrase.toLowerCase().replace(",", "").split(" "));

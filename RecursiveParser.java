@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ParserRebuild {
+public class RecursiveParser {
 
     // Definition du vocabulaire
     static Set<String> articles = Set.of("le", "la", "les", "une", "un", "des");
